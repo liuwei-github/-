@@ -1,0 +1,115 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after {
+	display: block;
+	content:  '';
+	clear: both;
+}
+.list .navbar {
+	height: 60px;
+	background: green;
+	color: white;
+}
+.list .navbar .back {
+	float: left;
+	position: relative;
+	left:  -9px;
+    top: 16px;
+}
+.list .navbar .arrow {
+	position: absolute;
+	border-right: 20px solid white;
+	border-left: 20px solid transparent;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+}
+.list .navbar .arrow.green {
+	left: 4px;
+	border-right: 20px solid green;
+}
+.list .navbar .login {
+	float: right;
+	line-height: 60px;
+	margin-right: 20px;
+}
+.list .navbar h1 {
+	text-align: center;
+	line-height: 60px;
+	text-indent: 20px;
+}
+/*.list .header{
+	position: fixed;
+	top:0;
+	left:0;
+}
+.list .container{
+	
+}*/
+/*搜索区域样式*/
+.list .search {
+	padding: 10px;
+	display: -webkit-box;
+}
+.list .search input {
+	display: block;
+	-webkit-box-flex: 1;
+	border: 1px solid green;
+	padding-left: 10px;
+	font-size: 14px;
+	height:38px;
+}
+.list .search span {
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	background: green;
+	color: white;
+	line-height: 40px;
+}
+/*导航部分*/
+.list .nav li {
+	float: left;
+	list-style: none;
+	width: 12.5%;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+	color: #666;
+}
+
+
+/*图片列表样式*/
+.list .image-list {
+	display: -webkit-box;
+	/*position: relative;*/
+}
+.list .left-list {
+	-webkit-box-flex: 1;
+	padding: 6px 3px 6px 6px;
+}
+.list .right-list {
+	-webkit-box-flex: 1;
+	padding: 6px 6px 6px 3px;
+}
+.list .image-list img {
+	margin-bottom: 6px;
+	display: block;
+}
+.list .go-top{
+	width:40px;
+	height:40px;
+	position: fixed;
+	top:500px;
+	right:20px;
+	padding:5px;
+	background: black;
+	color:white;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	z-index: 999;
+	display: none;
+}
